@@ -13,7 +13,7 @@ public class CashbackHackerTest {
     @Test
     public void shouldCheckRemainIfAmountEqualToBoundary() {
         CashbackHacker cashbackHacker = new CashbackHacker();
-        assertEquals(1000, cashbackHacker.remain(1000));
+        assertEquals(0, cashbackHacker.remain(1000));
     }
 
 
